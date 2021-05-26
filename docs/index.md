@@ -36,7 +36,8 @@ of the code stayed the same, I will focus only on the areas where the use of a b
 and appending the file. Changes were made to the add and remove function functions before exception classes were added to two different function 
 locations to make the script run smoother and with better direction for the user.
 
-
+![Script Header](Figure13.png "Script Header")#### 
+Figure 1. Script Header
 
 The manage file function was the first major edit to the document as it allows the program to read, write, append and reload the binary file (Figure 2). 
 When called upon, the mode input determines which statement to be directed to within the function. For this script, the append mode was not necessary as
@@ -317,6 +318,8 @@ Goodbye!
 C:\_PythonClass\Assignment07>
 
 '''
+![Binary File](Figure13.png "Binary File")#### 
+Figure 8. Binary File
 The program test was run through Pycharm (Figure 6) and through the command prompt (Figure 7). They both proved to be
 successful as the file was read and the program could display data, add to the list table, delete from the list table, save to the file and exit the 
 program. A binary file was created with the appropriate data loaded (Figure 8). The data can be discerned but it is not unpickled as one would expect 
