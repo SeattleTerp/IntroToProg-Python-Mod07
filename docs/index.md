@@ -36,7 +36,7 @@ of the code stayed the same, I will focus only on the areas where the use of a b
 and appending the file. Changes were made to the add and remove function functions before exception classes were added to two different function 
 locations to make the script run smoother and with better direction for the user.
 
-![Script Header](Figure13.png "Script Header")#### 
+![Script Header](https://github.com/SeattleTerp/IntroToProg-Python-Mod07/blob/main/docs/ScriptHeader.png "Script Header")#### 
 Figure 1. Script Header
 
 The manage file function was the first major edit to the document as it allows the program to read, write, append and reload the binary file (Figure 2). 
