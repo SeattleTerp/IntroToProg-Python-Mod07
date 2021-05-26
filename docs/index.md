@@ -36,8 +36,8 @@ of the code stayed the same, I will focus only on the areas where the use of a b
 and appending the file. Changes were made to the add and remove function functions before exception classes were added to two different function 
 locations to make the script run smoother and with better direction for the user.
 
-![Script Header](https://github.com/SeattleTerp/IntroToProg-Python-Mod07/blob/main/docs/ScriptHeader.png "Script Header")#### 
-Figure 1. Script Header
+![Script Header](https://github.com/SeattleTerp/IntroToProg-Python-Mod07/blob/main/docs/ScriptHeader.png "Script Header")
+#### Figure 1. Script Header
 
 The manage file function was the first major edit to the document as it allows the program to read, write, append and reload the binary file (Figure 2). 
 When called upon, the mode input determines which statement to be directed to within the function. For this script, the append mode was not necessary as
@@ -92,7 +92,7 @@ def manage_file(file_name, mode, data=None):
         return_data = "No matching mode option"
     return return_data
 '''
-
+#### Figure 2. Manage File Function
 The adding and deleting data functions (Figure 3) required modification in that the data was stored in dictionaries within lists within a list table. 
 Thus, the data also had to be added as a dictionary within a list to a list. For loops were required for the remove function to scan through the table for
 the list and then the dictionary within that list to find which dictionary and thus row needed removal based on the user’s input.
@@ -126,6 +126,7 @@ def remove_data_from_list(task_to_remove, list_of_rows):
                 print("row removed")
     return list_of_rows, 'Success'
 '''
+#### Figure 3. Adding and Deleting Data Function
 
 A custom error was handled within the input_new_task_and_priority function (Figure 4). This was created so as to direct the user to always input one of 
 three levels of priority. If they were to input the wrong one, there would be an error message informing them of what their input should be before asking 
@@ -152,6 +153,7 @@ def input_new_task_and_priority():
         priority = str(input("Priority:")).strip()
     return task, priority
 '''
+#### Figure 4. Input New Task Function
 
 ## Results
 '''
@@ -222,6 +224,7 @@ Goodbye!
 
 Process finished with exit code 0
 '''
+#### Figure 5. Results from PyCharm
 
 '''
 Microsoft Windows [Version 10.0.19041.985]
@@ -318,11 +321,13 @@ Goodbye!
 C:\_PythonClass\Assignment07>
 
 '''
-![Binary File](https://github.com/SeattleTerp/IntroToProg-Python-Mod07/blob/main/docs/Binary%20File%20Save.png "Binary File")#### 
-Figure 8. Binary File
-The program test was run through Pycharm (Figure 6) and through the command prompt (Figure 7). They both proved to be
+#### Figure 6. Results from Command Prompt
+
+![Binary File](https://github.com/SeattleTerp/IntroToProg-Python-Mod07/blob/main/docs/Binary%20File%20Save.png "Binary File")
+#### Figure 7. Binary File
+The program test was run through Pycharm (Figure 5) and through the command prompt (Figure 6). They both proved to be
 successful as the file was read and the program could display data, add to the list table, delete from the list table, save to the file and exit the 
-program. A binary file was created with the appropriate data loaded (Figure 8). The data can be discerned but it is not unpickled as one would expect 
+program. A binary file was created with the appropriate data loaded (Figure 7). The data can be discerned but it is not unpickled as one would expect 
 with it being a binary file. 
 
 ## Summary
