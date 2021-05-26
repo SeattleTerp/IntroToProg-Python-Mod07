@@ -318,7 +318,7 @@ Goodbye!
 C:\_PythonClass\Assignment07>
 
 '''
-![Binary File](Figure13.png "Binary File")#### 
+![Binary File](https://github.com/SeattleTerp/IntroToProg-Python-Mod07/blob/main/docs/Binary%20File%20Save.png "Binary File")#### 
 Figure 8. Binary File
 The program test was run through Pycharm (Figure 6) and through the command prompt (Figure 7). They both proved to be
 successful as the file was read and the program could display data, add to the list table, delete from the list table, save to the file and exit the 
